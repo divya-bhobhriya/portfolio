@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Divya Bhobhriya | BTech Student & Builder</title>
+<meta name="description" content="Portfolio of Divya Bhobhriya, a BTech student building web apps and exploring AI.">
+<meta name="theme-color" content="#0B1020">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav" id="nav">
+  <a href="#top" class="logo">Divya B.</a>
+  <nav aria-label="Primary">
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <canvas id="hero-canvas" aria-hidden="true"></canvas>
+  <div class="hero-copy">
+    <p class="hello">Hi, I’m</p>
+    <h1><span class="line">Divya</span><span class="line grad">Bhobhriya</span></h1>
+    <p class="sub">BTech student who turns curious ideas into fast, friendly software.</p>
+    <div class="cta">
+      <a class="btn primary" href="#projects">See my work</a>
+      <a class="btn ghost" href="#contact">Get in touch</a>
+    </div>
+  </div>
+  <a class="scroll-cue" href="#about" aria-label="Scroll to about"><span></span></a>
+</section>
+
+<section id="about" class="section about">
+  <img class="portrait reveal" src="https://picsum.photos/seed/divya-portrait/640/760" alt="Placeholder portrait" width="640" height="760" loading="lazy">
+  <div class="about-text">
+    <h2 class="reveal">Learning by building</h2>
+    <p class="reveal">I’m a BTech student who likes the space between design and engineering: interfaces that feel good and code that stays simple.</p>
+    <p class="reveal">I learn fastest by shipping small projects, breaking them, and shipping them again. Right now I’m going deeper into web development, data and applied AI.</p>
+    <dl class="stats reveal">
+      <div><dt>Focus</dt><dd>Web + AI</dd></div>
+      <div><dt>Studying</dt><dd>BTech</dd></div>
+      <div><dt>Based in</dt><dd>India</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <h2 class="reveal">What I work with</h2>
+  <div class="skill-grid">
+    <article class="skill reveal"><h3>Frontend</h3><p>HTML, CSS, JavaScript, React, responsive layouts and motion.</p></article>
+    <article class="skill reveal"><h3>Languages</h3><p>Python, C++, Java and JavaScript for coursework and side projects.</p></article>
+    <article class="skill reveal"><h3>Data & AI</h3><p>Pandas, scikit-learn and prompt-driven tools that save real time.</p></article>
+    <article class="skill reveal"><h3>Tooling</h3><p>Git, GitHub, VS Code and static hosting for quick deploys.</p></article>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <h2 class="reveal">Selected projects</h2>
+  <p class="lede reveal">Sample entries. Swap in your own titles, images and links.</p>
+  <div class="projects">
+    <article class="project reveal">
+      <img src="https://picsum.photos/seed/study-planner/800/520" alt="Study planner preview" width="800" height="520" loading="lazy">
+      <div><h3>Study Planner</h3><p>A timetable and deadline tracker built for exam season.</p><span class="tags">JavaScript · LocalStorage</span></div>
+    </article>
+    <article class="project reveal">
+      <img src="https://picsum.photos/seed/campus-bot/800/520" alt="Campus assistant preview" width="800" height="520" loading="lazy">
+      <div><h3>Campus Assistant</h3><p>A chatbot that answers common questions about schedules and clubs.</p><span class="tags">Python · NLP</span></div>
+    </article>
+    <article class="project reveal">
+      <img src="https://picsum.photos/seed/data-dash/800/520" alt="Data dashboard preview" width="800" height="520" loading="lazy">
+      <div><h3>Data Dashboard</h3><p>Interactive charts that turn a messy CSV into clear answers.</p><span class="tags">Python · Charts</span></div>
+    </article>
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <h2 class="reveal">Let’s build something</h2>
+  <p class="reveal">Open to internships, collaborations and good conversations about code.</p>
+  <a class="btn primary big reveal" href="mailto:divyabhobhriya477@gmail.com">divyabhobhriya477@gmail.com</a>
+  <p class="social reveal"><a href="https://github.com/divya-bhobhriya" target="_blank" rel="noopener">GitHub</a></p>
+</section>
+</main>
+
+<footer class="footer">© <span id="year"></span> Divya Bhobhriya</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
